@@ -1,0 +1,91 @@
+.navbar {
+  background-color: #97ce4c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  position: relative;
+  padding: 0.25rem 2rem;
+}
+
+.navbar .navbar__logo {
+  width: 100%;
+}
+
+.navbar .navbar__logo .navbar__logo-img {
+  width: 50%;
+}
+
+.navbar .navbar__menu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 70px);
+  left: 0;
+  top: 100%;
+  padding: 0.25rem 2rem;
+  background-color: #97ce4c;
+}
+
+.navbar .navbar__menu .menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 90%;
+}
+
+.navbar .navbar__menu .menu__list .menu__list-link {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #44281d;
+}
+
+.navbar .navbar__menu .menu__list .menu__list-link .menu__list-item {
+  list-style: none;
+  text-align: center;
+}
+
+.navbar .navbar__menu .menu__list .menu__list-link .menu__list-item:hover {
+  text-decoration: underline;
+}
+
+.navbar .menu__btn {
+  background-color: #f0e14a;
+  padding: 0.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.navbar .menu__btn:hover {
+  background-color: #97ce4c;
+}
+/*# sourceMappingURL=navbar.css.map */
