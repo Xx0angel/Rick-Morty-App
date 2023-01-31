@@ -3,12 +3,19 @@ import Character from './Character'
 
 function Header(props) {
   return (
-    <header className='d-flex justify-content-between align-items-center'>
-      <p>Pagina: {props.page}</p>
-      <button className='btn btn-primary btn-sm'
-        onClick={() => props.setPage(props.page + 1)}>
-        Pagina {props.page + 1}
-      </button>
+    <header className='d-block justify-content-between align-items-center pb-5'>
+      
+      <div className='d-flex justify-content-between align-items-center'>
+        <button className='btn btn-primary btn-sm'
+          onClick={() => props.setPage(props.page - 1)}>
+          Pagina Anterior 
+        </button>
+        <p>Pagina: {props.page}</p>
+        <button className='btn btn-primary btn-sm' 
+          onClick={() => props.setPage(props.page + 1)}>
+          Siguiente Pagina 
+        </button>
+      </div>
     </header>
   )
 }
