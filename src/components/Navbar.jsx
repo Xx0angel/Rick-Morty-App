@@ -4,7 +4,7 @@ import '../navbar.css'
 
 function Navbar() {
   return (
-    <nav className='navbar text-center py-2 px-2'>
+    <nav className='navbar px-2 bg-dark'>
         <img width="200px"src={ RickLogo } alt="Rick and morty"/>
     </nav>
   )
