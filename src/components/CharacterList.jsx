@@ -3,7 +3,7 @@ import Character from './Character'
 
 function Header(props) {
   return (
-    <header className='d-block justify-content-between align-items-center pb-5'>
+    <header className='d-block justify-content-between align-items-center py-5'>
       
       <div className='d-flex justify-content-between align-items-center'>
         <button className='btn btn-primary btn-sm'
