@@ -3,6 +3,7 @@ import CharacterList from './components/CharacterList'
 import Herobanner from './components/Herobanner'
 import Navbar from './components/Navbar'
 import '../src/App.css'
+import Footer from './components/Footer'
 
 export function App () {
 
@@ -10,6 +11,7 @@ export function App () {
       <Navbar/>
       <Herobanner/>
       <CharacterList />
+      <Footer/>
     </div>
   )
 }
