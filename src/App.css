@@ -5,3 +5,8 @@
 .footer__link{
     text-decoration: none;
 }
+
+.search{
+    position: relative;
+    top: 50px;
+}
