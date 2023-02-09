@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Rick-Morty-App/static/css/main.496ba354.css",
+    "main.js": "/Rick-Morty-App/static/js/main.449f4152.js",
+    "static/media/hero1.png": "/Rick-Morty-App/static/media/hero1.21c57ade30dd30a476f1.png",
+    "static/media/hero3.jpg": "/Rick-Morty-App/static/media/hero3.a2c1fccecfb15fd7180d.jpg",
+    "static/media/hero2.jpg": "/Rick-Morty-App/static/media/hero2.2c043f87ae4a61354b60.jpg",
+    "static/media/rickandmorty.png": "/Rick-Morty-App/static/media/rickandmorty.df73b7db546a5a50f92d.png",
+    "index.html": "/Rick-Morty-App/index.html",
+    "main.496ba354.css.map": "/Rick-Morty-App/static/css/main.496ba354.css.map",
+    "main.449f4152.js.map": "/Rick-Morty-App/static/js/main.449f4152.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.496ba354.css",
+    "static/js/main.449f4152.js"
+  ]
+}
