@@ -4,7 +4,6 @@ import Herobanner from './components/Herobanner'
 import Navbar from './components/Navbar'
 import '../src/App.css'
 import Footer from './components/Footer'
-import Buscador from './components/Buscador'
 
 export function App () {
 
